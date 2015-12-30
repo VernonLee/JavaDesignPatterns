@@ -13,7 +13,7 @@ public abstract class Duck {
 	 * 外观
 	 */
 	public abstract void display();
-	
+
 	public FlyBehavior getFlyBehavior() {
 		return flyBehavior;
 	}
